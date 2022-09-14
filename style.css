@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bg {
+    background: url(WFK.jfif) top no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(0px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.percent {
+    font-size: 35px;
+    color: yellow;
+    
+}
